@@ -46,6 +46,8 @@ Here is what you should record in your notes:
 
 You do not need to turn in all of your debugging notes, but you will need to answer questions about your debugging process in your Reflection.
 
+Create a README.md in your repository which includes your debugging notes
+
 **<ins>Debugging Resources</ins>**
 
 Here are some course resources on debugging that you\'ve seen already:
