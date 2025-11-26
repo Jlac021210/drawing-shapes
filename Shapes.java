@@ -33,20 +33,28 @@ public class Shapes {
         turtle.up();
         turtle.setPosition(250,-250);
         turtle.down();
+        int counter =0;
          for(int i=1;i<=10;i++){
            for(int j=1;j<=2;j++){
                turtle.forward(50.0);
                turtle.left(120);
+               counter++;
                }
                turtle.forward(50.0);
                turtle.left(120);
+               counter++;
                turtle.forward(50.0);
                turtle.left(120);
+               counter++;
                turtle.forward(50.0);
                turtle.left(120);
+               counter++;
                turtle.forward(100);
                turtle.left(36);
+               counter+=0.36;
 }
+         
+         System.out.println(counter*100);
 
         // Extension 1:
 
