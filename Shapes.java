@@ -51,10 +51,10 @@ public class Shapes {
                counter++;
                turtle.forward(100);
                turtle.left(36);
-               counter+=0.36;
+               counter++;
 }
          
-         System.out.println(counter*100);
+         System.out.println(turtle.getClass().getName()+" has turned "+counter+" times!");
 
         // Extension 1:
 
